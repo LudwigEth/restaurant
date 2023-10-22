@@ -14,10 +14,7 @@
     flex-direction: column;
 }
 
-.justify-center {
+.centered {
     justify-content: center;
-}
-
-.align-center {
     align-items: center;
 }
