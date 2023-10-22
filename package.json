@@ -1,0 +1,19 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "practice project for webpack and dom manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LudwigEth/restaurant.git"
+  },
+  "author": "Ludwig.eth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LudwigEth/restaurant/issues"
+  },
+  "homepage": "https://github.com/LudwigEth/restaurant#readme"
+}
