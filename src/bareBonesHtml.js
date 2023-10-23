@@ -41,6 +41,10 @@ export default function() {
     header.appendChild(restaurantNameH1);
     header.appendChild(navbar);
 
+    // main
+
+    main.id = 'main';
+
     // footer
 
     footerP.textContent = 'by Ludwig.eth';
