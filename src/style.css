@@ -63,7 +63,7 @@ main {
     flex-direction: column;
     flex: 1;
     width: 100%;
-    background-image: url(../src/bubbletea.jpeg);
+    background-image: url(../src/images/bubbletea.jpeg);
 }
 
 /* home tab styles */
@@ -83,6 +83,8 @@ blockquote.home {
     padding-top: 2rem;
     font-size: 1.2rem;
 }
+
+/* menu tab styles */
 
 /* footer */
 
