@@ -44,6 +44,7 @@ header {
     position: fixed;
     height: 6rem;
     width: 100%;
+    box-shadow: 0.01rem 0.01rem 0.05rem #00000090;
 }
 
 .navbar ul {
