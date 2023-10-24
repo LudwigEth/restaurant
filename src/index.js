@@ -4,4 +4,25 @@ import mainMenu from "./mainMenu";
 
 bareBonesHtml();
 // mainHome();
-mainMenu();
+// mainMenu();
+
+const main = document.getElementById('main');
+const btnHome = document.getElementById('btnHome');
+const btnMenu = document.getElementById('btnMenu');
+const btnContact = document.getElementById('btnContact');
+
+
+
+const emptyMainTag = () => {
+    main.replaceChildren();
+};
+
+btnHome.addEventListener('click', e => {
+    emptyMainTag();
+    mainHome();
+});
+
+btnMenu.addEventListener('click', e => {
+    emptyMainTag();
+    mainMenu();
+});
