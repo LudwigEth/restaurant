@@ -2,10 +2,13 @@ import bareBonesHtml from "./bareBonesHtml";
 import mainHome from "./mainHome";
 import mainMenu from "./mainMenu";
 import mainContact from "./mainContact";
+import bubbleTeaShop from '../src/images/bubbleTeaShop.png';
 import './style.css';
 
 
 bareBonesHtml();
+
+document.body.style.backgroundImage = bubbleTeaShop;
 
 const main = document.getElementById('main');
 const btnHome = document.getElementById('btnHome');
