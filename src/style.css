@@ -101,6 +101,7 @@ main {
 blockquote.home {
     padding-top: 2rem;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 /* menu tab styles */
@@ -125,11 +126,12 @@ blockquote.home {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
     background-color: bisque;
     border: 0.1rem solid #00000090;
     border-radius: 0.33rem;
     color: #392b04;
-    padding: 1rem;
+    padding: 1.2rem;
 }
 
 .menuItemCard img {
