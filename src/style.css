@@ -117,11 +117,12 @@ blockquote.home {
     justify-content: center;
     align-items: center;
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     gap: 1rem;
 }
 
 .menuItemCard {
+    text-align: center;
     gap: 0.5rem;
     background-color: bisque;
     border-radius: 0.42rem;
