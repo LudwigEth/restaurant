@@ -8,7 +8,7 @@ export default function() {
     const newP2 = document.createElement('p');
     const newQuote = document.createElement('blockquote');
 
-    newCardDiv.classList.add('homeCard');
+    newCardDiv.classList.add('tabContainer');
     newDiv.classList.add('home');
     newQuote.classList.add('home');
 
