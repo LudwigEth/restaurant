@@ -3,7 +3,6 @@ import mainHome from "./mainHome";
 import mainMenu from "./mainMenu";
 import mainContact from "./mainContact";
 import bubbleTeaShop from '../src/images/bubbleTeaShop.png';
-import '../src/style.css';
 
 
 bareBonesHtml();
