@@ -7,8 +7,10 @@
 body {
     display: flex;
     height: 100vh;
-    background-color: #ffd1dc;
     font-size: 16px;
+    background-image: url(../src/images/bubbleTeaShop.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 ul,
@@ -40,7 +42,8 @@ header {
     align-items: center;
     gap: 1rem;
     color: #392b04;
-    background-color: #C1E1C1;
+    background-color: #C1E1C190;
+    backdrop-filter: blur(0.5rem);
     position: fixed;
     height: 6rem;
     width: 100%;
@@ -52,18 +55,19 @@ header {
     gap: 1rem;
 }
 
+.navbar li button {
+    text-decoration: underline;
+}
+
 /* content & main */
 
 main {
     display: flex;
     justify-content: center;
     align-items: start;
-    padding-top: 13rem;
+    padding-top: 8rem;
     color: white;
-    height: 100%;
-    background-image: url(../src/images/bubbleTeaShop.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100%;
 }
 
 #content {
@@ -71,6 +75,16 @@ main {
     flex-direction: column;
     flex: 1;
     width: 100%;
+}
+
+.tabContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000099;
+    padding: 1rem;
+    border-radius: 0.33rem;
 }
 
 /* home tab styles */
@@ -89,24 +103,46 @@ blockquote.home {
     font-size: 1.2rem;
 }
 
-.homeCard {
-    width: fit-content;
+/* menu tab styles */
+
+.menuContainer {
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.menuGrid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
+}
+
+.menuItemCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #00000099;
-    padding: 1rem;
+    background-color: bisque;
+    border: 0.1rem solid #00000090;
     border-radius: 0.33rem;
+    color: #392b04;
+    padding: 1rem;
 }
 
-/* menu tab styles */
+.menuItemCard img {
+    width: 10rem;
+    height: 10rem;
+    background-color: #ffd1dc;
+}
 
 /* footer */
 
 footer {
     margin-top: auto;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
