@@ -8,7 +8,7 @@ import './style.css';
 
 bareBonesHtml();
 
-document.body.style.backgroundImage = bubbleTeaShop;
+document.body.style.backgroundImage = `url(${bubbleTeaShop})`;
 
 const main = document.getElementById('main');
 const btnHome = document.getElementById('btnHome');
