@@ -1,6 +1,7 @@
 import bareBonesHtml from "./bareBonesHtml";
 import mainHome from "./mainHome";
 import mainMenu from "./mainMenu";
+import mainContact from "./mainContact";
 
 bareBonesHtml();
 // mainHome();
@@ -25,4 +26,9 @@ btnHome.addEventListener('click', e => {
 btnMenu.addEventListener('click', e => {
     emptyMainTag();
     mainMenu();
+});
+
+btnContact.addEventListener('click', e => {
+    emptyMainTag();
+    mainContact();
 });
