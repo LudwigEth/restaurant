@@ -1,3 +1,5 @@
+import bobalocation from '../src/images/bobalocation.png';
+
 const addressContent = `
 8008 Boba Street<br>
 Tapioca, IL 69420<br>
@@ -19,7 +21,7 @@ export default function() {
     contactHeading.textContent = 'Where to find us';
     address.innerHTML = addressContent;
 
-    imgLocation.src = '../src/images/bobalocation.png';
+    imgLocation.src = bobalocation;
 
     tabContainer.appendChild(contactHeading);
     tabContainer.appendChild(address);

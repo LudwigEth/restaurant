@@ -2,10 +2,10 @@ import bareBonesHtml from "./bareBonesHtml";
 import mainHome from "./mainHome";
 import mainMenu from "./mainMenu";
 import mainContact from "./mainContact";
+import './style.css';
+
 
 bareBonesHtml();
-// mainHome();
-// mainMenu();
 
 const main = document.getElementById('main');
 const btnHome = document.getElementById('btnHome');

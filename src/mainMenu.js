@@ -1,3 +1,7 @@
+import brownSugarTea from '../src/images/brownSugarTea.png';
+import matchaTea from '../src/images/matchaTea.png';
+import strawberryTea from '../src/images/strawberryTea.png';
+
 function createMenuItem(imgSrc, name, price) {
     const menuItemCard = document.createElement('div');
     const img = document.createElement('img');
@@ -31,9 +35,9 @@ function createMenuItem(imgSrc, name, price) {
     menuHeading.textContent = 'Our Milkteas';
   
     const milkTeas = [
-      { img: '../src/images/brownSugarTea.png', name: 'Brown Sugar Milktea', price: '$5' },
-      { img: '../src/images/matchaTea.png', name: 'Matcha Milktea', price: '$5' },
-      { img: '../src/images/strawberryTea.png', name: 'Strawberry Milktea', price: '$5' },
+      { img: brownSugarTea, name: 'Brown Sugar Milktea', price: '$5' },
+      { img: matchaTea, name: 'Matcha Milktea', price: '$5' },
+      { img: strawberryTea, name: 'Strawberry Milktea', price: '$5' },
     ];
   
     milkTeas.forEach(tea => {
