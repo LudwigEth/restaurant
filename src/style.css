@@ -149,6 +149,16 @@ blockquote.home {
     background-color: #ffd1dc;
 }
 
+/* contact tab styles */
+
+.contact {
+    gap: 1rem;
+}
+
+.contact img {
+    width: 18rem;
+}
+
 /* footer */
 
 footer {
