@@ -8,7 +8,7 @@ body {
     display: flex;
     height: 100vh;
     font-size: 16px;
-    background-image: url(../src/images/bubbleTeaShop.png);
+    background-image: url(images/bubbleTeaShop.png);
     background-position: center;
     background-repeat: no-repeat;
 }
