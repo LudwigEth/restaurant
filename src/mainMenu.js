@@ -21,9 +21,13 @@ function createMenuItem(imgSrc, name, price) {
     const main = document.getElementById('main');
     const menuContainer = document.createElement('div');
     const menuGrid = document.createElement('div');
-  
+    const menuHeading = document.createElement('h2');
+
+    menuHeading.classList.add('menuH2');
     menuContainer.classList.add('menuContainer');
     menuGrid.classList.add('menuGrid');
+
+    menuHeading.textContent = 'Our Milkteas';
   
     const milkTeas = [
       { img: '../src/images/brownSugarTea.png', name: 'Brown Sugar Milktea', price: '$5' },
@@ -37,5 +41,6 @@ function createMenuItem(imgSrc, name, price) {
     });
   
     menuContainer.appendChild(menuGrid);
+    main.appendChild(menuHeading);
     main.appendChild(menuContainer);
   }  
