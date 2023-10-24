@@ -5,6 +5,7 @@ function createMenuItem(imgSrc, name, price) {
     const menuItemPrice = document.createElement('p');
   
     menuItemCard.classList.add('menuItemCard');
+    menuItemCard.classList.add('container');
   
     img.src = imgSrc;
     menuItemName.textContent = name;

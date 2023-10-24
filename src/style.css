@@ -22,24 +22,28 @@ li {
 button {
     border: none;
     background-color: inherit;
+    color: #392b04;
     font-size: 1rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.42rem;
 }
 
 button:active {
     scale: 0.98;
 }
 
-/* utility classes */
+/* .container utility */
 
-
-
-/* header */
-
-header {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* header */
+
+header {
     gap: 1rem;
     color: #392b04;
     background-color: #C1E1C190;
@@ -55,17 +59,13 @@ header {
     gap: 1rem;
 }
 
-.navbar li button {
-    text-decoration: underline;
+.activeTab {
+    background-color: #ffd1dc;
 }
 
 /* content & main */
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 8rem;
     color: white;
     width: 100%;
@@ -79,25 +79,13 @@ main {
 }
 
 .tabContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #00000099;
     padding: 1rem;
     border-radius: 0.33rem;
+    text-align: center;
 }
 
 /* home tab styles */
-
-.home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 blockquote.home {
     padding-top: 2rem;
@@ -110,7 +98,10 @@ blockquote.home {
 .menuH2 {
     text-align: center;
     background-color: #ffd1dc;
-    width: 100%;
+    width: 16rem;
+    border-radius: 0.42rem;
+    border: 0.03rem solid pink;
+    box-shadow: 0 0.1rem 0.25rem 0 #00000099;
     padding: 0.5rem;
     color: #392b04;
 }
@@ -131,14 +122,11 @@ blockquote.home {
 }
 
 .menuItemCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 0.5rem;
     background-color: bisque;
-    border: 0.1rem solid #00000090;
-    border-radius: 0.33rem;
+    border-radius: 0.42rem;
+    border: 0.03rem solid pink;
+    box-shadow: 0 0.1rem 0.25rem 0 #00000090;
     color: #392b04;
     padding: 1.2rem;
 }

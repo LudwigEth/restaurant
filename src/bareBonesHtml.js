@@ -21,7 +21,9 @@ export default function() {
     btnMenu.textContent = 'Menu';
     btnContact.textContent = 'Contact';
 
+    header.classList.add('container');
     navbar.classList.add('navbar');
+    main.classList.add('container');
 
     btnHome.id = 'btnHome';
     btnMenu.id = 'btnMenu';

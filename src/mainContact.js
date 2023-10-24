@@ -12,6 +12,7 @@ export default function() {
     const address = document.createElement('address');
     const imgLocation = document.createElement('img');
 
+    tabContainer.classList.add('container');
     tabContainer.classList.add('tabContainer');
     tabContainer.classList.add('contact');
 
